@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #020a18;
+    background-color: #020A18;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,14 +27,14 @@ body {
 
 .header-link {
     padding: 40px 16px;
-    color: var(--ffffff, #fff);
+    color: var(--ffffff, #FFF);
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: 0.3s;
 }
 
 .nav {
@@ -43,11 +43,7 @@ body {
 }
 
 .header-link:hover {
-    color: #3a68b8;
-}
-
-.header-link:active {
-    transform: scale(1.2);
+    color: #3A68B8;
 }
 
 .header {
@@ -55,7 +51,7 @@ body {
 }
 
 .subtitle {
-    color: var(--3-a-68-b-8, #3a68b8);
+    color: var(--3-a-68-b-8, #3A68B8);
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
@@ -67,17 +63,18 @@ body {
 }
 
 .title {
-    color: var(--ffffff, #fff);
+    color: var(--ffffff, #FFF);
     font-family: Open Sans;
     font-size: 49px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 130%;
+    /* 71.5px */
     margin-bottom: 40px;
 }
 
 .dsc {
-    color: var(--ffffff, #fff);
+    color: var(--ffffff, #FFF);
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
@@ -90,14 +87,14 @@ body {
 
 .main-btn {
     border-radius: 5px;
-    background: var(--3-a-68-b-8, #3a68b8);
+    background: var(--3-a-68-b-8, #3A68B8);
     padding: 1rem 2rem;
-    color: var(--ffffff, #fff);
-    font-family: Open Sans;
+    color: var(--ffffff, #FFF);
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    font-family: Open Sans;
     text-decoration: none;
     margin-right: 20px;
     border: 2px solid transparent;
@@ -109,9 +106,9 @@ body {
 }
 
 .main-btn:hover {
-    color: #3a68b8;
+    color: #3A6888;
     background-color: #fff;
-    border: 2px solid #3a68b8;
+    border: 2px solid #3A6888;
 }
 
 .main-left,
@@ -172,9 +169,6 @@ body {
     font-weight: 600;
     line-height: 26px;
 }
-
-
-/* 25.6px */
 
 @media (max-width: 1024px) {
     .center {
